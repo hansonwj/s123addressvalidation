@@ -6,3 +6,5 @@ Create a new Survey form in Survey123 connect. Choose import from file and selec
 Note that this will use credits based on the current ESRI standard. At time of writing it is 40 credits per 1000 geocodes. Note the geocoding will start when you have values in the "street number", "street name" and type more than 3 characters in the "suburb field". Every keypress in those fields will send another geocoding request to the server and will count as one geocode.
 
 You can swap out the locator for your own to minimise costs by editing the locator URL within the javascript file. Note you may also have to change the attribute fields if your locator returns different attributes to the esri world geocoder.
+
+This is provided as-is and is free to use at your own risk.
